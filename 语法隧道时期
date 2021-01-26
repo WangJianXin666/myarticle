@@ -1,0 +1,24 @@
+In school, you learned about nine fundamental types of English words:
+
+nouns, pronouns, articles, verbs, adjectives,
+名词，代词，冠词，动词，形容词
+
+adverbs, prepositions, conjunctions, and interjections.
+副词，介词，连词和感叹词
+
+like singular vs. plural nouns and superlative vs. comparative adverbs,
+单数名词 vs 复数名词 \N 副词最高级 vs 副词比较级
+
+不如叫学生拆词拆到最细。
+
+
+but unfortunately, there are a lot words that have multiple meanings - like "rose" and "leaves",
+
+which can be used as nouns or verbs.
+
+A digital dictionary alone isn't enough to resolve this ambiguity,
+因此开发了 "短语结构规则" 来代表语法规则
+
+so computers also need to know some grammar.
+
+phrase structure rules were developed
