@@ -1,0 +1,24 @@
+当然还有would还有will
+当时我在为寻找一个双精度的数值问题寻找解决方案
+结果就找到了这个
+I'm trying to round BigDecimal values up, to two decimal places.
+
+I'm using
+
+BigDecimal rounded = value.round(new MathContext(2, RoundingMode.CEILING));
+logger.trace("rounded {} to {}", value, rounded);
+but it doesn't do what I want consistently:
+
+rounded 0.819 to 0.82
+rounded 1.092 to 1.1
+rounded 1.365 to 1.4 // should be 1.37
+rounded 2.730 to 2.8 // should be 2.74
+rounded 0.819 to 0.82
+I don't care about significant digits, I just want two decimal places. How do I do this with BigDecimal? Or is there another class/library better suited to this?
+
+注意这个should be,应该是，隐含（过去的）
+根据我们的时态法，这里的should可以分解为如下：
+过去+应该= should, did shall
+所以以后我们如果想问
+你应该已经大学毕业了吧？
+You should have graduated college?
